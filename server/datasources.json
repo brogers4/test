@@ -1,0 +1,8 @@
+{
+  "arf_mongolab": {
+	"defaultForType": "mongodb",
+	"url": "mongodb://admin:Eatoneaton!23@ds063160.mongolab.com:63160/heroku_app32339085",
+	"name": "arf_mongolab",
+	"connector": "mongodb"
+  }
+}

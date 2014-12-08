@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ]
+  },
+  "User": {
+    "dataSource": "arf_mongolab",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "arf_mongolab",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "arf_mongolab",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "arf_mongolab",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "arf_mongolab",
+    "public": false
+  },
+  "controller": {
+    "dataSource": "arf_mongolab",
+    "public": true
+  },
+  "device": {
+    "dataSource": "arf_mongolab",
+    "public": true
+  },
+  "user": {
+    "dataSource": "arf_mongolab",
+    "public": true
+  },
+  "family": {
+    "dataSource": "arf_mongolab",
+    "public": false
+  }
+}
